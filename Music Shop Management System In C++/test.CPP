@@ -1,12 +1,12 @@
 /****************************************/
 /***********	Headder Files	*********/
-#include<iostream>
+#include<iostream.h>
 #include<conio.h>
 #include<process.h>
 #include<string.h>
-#include<fstream>
+#include<fstream.h>
 #include<stdio.h>
-#include<iomanip>
+#include<iomanip.h>
 #include<dos.h>
 /****************************************/
 
@@ -24,8 +24,8 @@
 		public:
 
       void entry()
-		{
-		
+		{ 
+		clrscr();
 		textcolor(RED);
 		gotoxy(32,4);
 		cputs("MELODY MUSICAL STORE");
